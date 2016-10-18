@@ -1,4 +1,8 @@
 Here is the readme file
 
 
-You'll find the code for my different school projects and homeworks in this repository
+You will probably see the code of the exercise which is about making a website model with some HTML & CSS.
+
+I do my best everytime
+
+Peace.
