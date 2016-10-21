@@ -1,3 +1,6 @@
+/* First background with Hi there txt*/
+
+
 #firstbg{
     background-color: #643A79;
     
@@ -10,34 +13,64 @@
 }
 
 .link {
-float: left;
-width: 100px;
-text-align: right;
+  
+  float: right;
+  width: 100px;
+  text-align: right;
 }
 
 .link :hover {
-    
-    background-color: black;
+  background-color: black;
 }
-.header {
+.buttons {
 width: 90%;
 position: right;
 }
 .nonbreakingspace {
-clear: both;
+  clear: both;
 }
 
 .floatleft {
-    
-    float: left;
+  float: left;
 }
 
 .workwithus {
-clear: both;
-
+  clear: both;
 }
 
-.hithere
-{
+.hithere {
   font-size: 30px
 }
+
+
+/* Second background with green color */
+
+
+#secondbg {
+  background-color: #17c2a4;
+  font-family: Avenir;
+  color: white;
+  height: 500px;
+  padding: 60px;
+  margin: -10px;
+}
+
+#secondbg h1{
+  text-align: center;
+}
+
+#secondbg img{
+  text-align: 
+}
+.weare {
+  text-align: center;
+}
+
+#png {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
