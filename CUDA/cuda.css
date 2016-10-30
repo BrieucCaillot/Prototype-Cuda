@@ -1,12 +1,39 @@
-/* First background with Hi there txt*/
+/*
 
+#title            : Exercise 3: WEBSITE CUDA
+#description      : CUDA's Website CSS Proudly made by:
+#author           : Brieuc CAILLOT
+#date             : 20161030
+#version          : Probably the lastest version
+#usage            : CSS
+#notes            : Only working on search engine
+
+================================================================            
+
+
+
+
+                    /* FIRST PURPLE BACKGROUND */
+
+.body{
+    font-family: Avenir, "Times New Roman", Arial;
+    width: 750px
+    margin: auto;
+}
+
+@media only screen and (max-width:800px) {
+ body {
+ background-color:black;
+ color:white
+ }
+}
+
+/* HEADER */ 
 
 #firstbg{
     background-color: #643A79;
-    
     font-family: Avenir, "Times New Roman", Arial;
     color: white;
-    
     height: 250px;
     padding: 60px;
     margin: -10px;
@@ -17,12 +44,12 @@
   float: right;
   width: 100px;
   text-align: right;
-  
 }
 
 .link :hover {
   background-color: black;
 }
+
 .buttons {
 width: 90%;
 position: right;
@@ -44,8 +71,9 @@ position: right;
 }
 
 
-/* Second background with green color */
+                        /* SECOND GREEN BACKGROUND */
 
+/* HEADER */
 
 #secondbg {
   background-color: #17c2a4;
@@ -67,19 +95,399 @@ position: right;
 .weare {
   text-align: center;
   font-size: 1.2em;
+  color: white
 }
 
-#png {
-  
-  
-  
-  
-  
+#floatlefticon {
+  float-left;
 }
 
-#png .flag.png{
-  float: right;
+/* ICONS -> */
 
+        /* FLAG ICON */
+
+.flag{
+  float: left;
+  margin-top: 40px;
+  width: 25%;
+  text-align: center;
 }
 
+.BRANDING{
+  font-size: 20px;
+}
 
+        /* PEN ICON */
+
+.pen {
+  float: left;
+  margin-top: 40px;
+  width: 25%;
+  text-align: center;
+}
+
+.DESIGN {
+  font-size: 20px;
+}
+
+        /* ECROUS ICON */
+
+.ecrous {
+  float: left;
+  margin-top: 40px;
+  width: 25%;
+  text-align: center;
+}
+
+.DEVELOPMENT{
+  font-size: 20px;
+}
+
+        /* ROCKET SCIENCE ICON */
+
+.rocket {
+  float: left;
+  margin-top: 40px;
+  width: 25%;
+  text-align: center;
+}
+
+.ROCKETSCIENCE{
+  font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+                      /* THIRD BRIGHT BLUE BACKGROUND  */
+
+/* HEADER */
+
+#thirdbg{
+background-color: #e7f1f8;
+font-family: Avenir, "Times New Roman", Arial;
+color: #404B66;
+height: 700px;
+padding: 60px;
+margin: -10px;
+}
+
+#thirdbg h1{
+  text-align: center;
+}
+
+#thirdbg img{
+  border-image: center;
+}
+
+.weare2 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* CIRCLES WHICH ARE PEOPLE'S FACES */
+
+.circle{
+  float: left;
+  margin-top: 60px;
+  width: 25%;
+  text-align: center;
+}
+
+/* PEOPLE */
+
+.ANNEHATHAWAY{
+  font-size: 20px;
+}
+
+.KATEUPTON{
+  font-size: 20px;
+}
+
+.OLIVIAWILDE{
+  font-size: 20px;
+}
+
+.ASHLEYGREENE{
+  font-size: 20px;
+}
+
+/* What people are in Cuda*/
+
+.description{
+  font-size: 15px;
+  color: #48C1E0;
+}
+
+                    /*FOURTH WHITE BACKGROUND*/
+
+/* HEADER */
+
+#fourthbg {
+  background-color: #FFFFFF;
+  font-family: Avenir;
+  color: white;
+  height: 480px;
+  padding:90px;
+  margin: -10px; 
+}
+
+/* ABILITES */
+
+.wdesign{
+ float: left;
+  margin-top: 140px;
+  width: 25%;
+}
+
+.html{
+ float: left;
+  margin-top: 140px;
+  width: 25%;
+}
+
+.gdesign{
+ float: left;
+  margin-top: 140px;
+  width: 25%;
+}
+
+.uiux{
+ float: left;
+  margin-top: 140px;
+  width: 25%;
+}
+
+                    /* FIFTH YELLOW BACKGROUND*/
+
+/* HEADER */
+
+#fifthbg {
+  background-color: #FFDD99;
+  font-family: Avenir;
+  height: 1200px;px;
+  padding:90px;
+  margin: -10px;
+}
+
+.portfolio{
+  font-size: 15px;
+}
+
+.buttons2{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 373px;
+  display: inline-block;
+  float:left;
+  clear: both;
+}
+
+/* PICS FOR FOLIO */
+
+.portfolio1{
+float: left;
+clear: both;
+display: inline-block;
+margin-top: 50px;
+}
+
+.portfolio2{
+float: left;
+display: inline-block;
+margin-top: 50px;
+margin-left: 20px;
+}
+
+.portfolio3{
+float: left;
+clear: both;
+display: inline-block;
+margin-top: 50px;
+}
+
+.portfolio4{
+float: left;
+display: inline-block;
+margin-top: 50px;
+margin-left: 20px;
+overflow: scroll;
+}
+
+                /* SEVENTH PINK BACKGROUND */
+
+/* HEADER */
+
+#seventhbg {
+  background-color: #D74680;
+  font-family: Avenir;
+  height: 700px;
+  padding:90px;
+  margin: -10px;
+}
+
+/* CHANNEL IMAN */
+
+.circle1{
+  float: left;
+  margin-top: 80px;
+  width: 400px;
+  margin-left: 85px;  
+}
+
+.tes1{
+  color: white;
+  float: left;
+  position: relative;
+  right: -17px;
+  margin: -94px 0px -180px 139px;
+  width: 262px;
+}
+
+/* ADRIANA LIMA */
+
+.circle2{
+  color: white;
+  display: inline-block;
+  float: left;
+  margin-top: 80px;
+  width: 25%;
+  margin-left: 90px;
+}
+
+.tes2{  
+  float: left;
+  position: relative;
+  right: -10px;
+  margin: -94px 0 10px 143px;
+  width: 280px
+}
+
+/* ANNE HATHAWAY*/
+
+.circle3{
+  clear: both;
+  float: left;
+  margin-top: 80px;
+  width: 400px;
+  margin-left: 85px;  
+}
+
+.tes3{
+  color: white;
+  float: left;
+  position: relative;
+  right: -17px;
+  margin: -94px 0px -180px 139px;
+  width: 275px;
+}
+
+/* EMMA STONE */
+
+.circle4{
+  color: white;
+  display: inline-block;
+  float: left;
+  margin-top: 80px;
+  width: 25%;
+  margin-left: 90px;
+}
+
+.tes4{  
+  float: left;
+  position: relative;
+  right: -10px;
+  margin: -94px 0 10px 143px;
+  width: 280px
+}
+
+                  /* LAST BLUE BACKGROUND */
+
+#lastbg{
+  background-color:#3C5499;
+  font-family: Avenir;
+  color: white;
+  height: 700px;
+  padding:90px;
+  margin: -10px; 
+}
+
+            /* RHAAAAAA LE BON VIEUX FORMULAIRE */
+
+/* YOUR NAME AND EMAIL SECTION */
+
+#lastbg #name-email{
+padding-top: 50px;
+}
+
+#name-email{
+text-align: center;
+}
+
+#name-email li{
+list-style: none;
+display: inline;
+padding-left: 20px;
+padding-right: 45px;
+}
+
+#name-email li input{
+color: white;
+background: #273A71;
+width: 360px;
+padding: 22px 25px;
+border: none;    
+}
+
+/* YOUR MESSAGE SECTION */
+
+#urmsg{
+text-align: center;
+}
+
+#urmsg textarea{
+color: white;
+margin-left: 20px;
+background: #273A71;
+padding-top: 20px;
+width: 885px;
+height: 200px;
+border: none;
+}
+
+.sendmsg{ 
+margin-top: 70px;
+margin-bottom: 120px;
+}
+ 
+/* MEDIA SECTION */
+
+#mediabox {
+font-family: Avenir;
+color: white;
+height: 112px;
+margin: -10px;
+background: #344b8e;
+}
+
+#mediabox #linksmedia {
+padding: 20px;
+}
+
+#linksmedia {
+text-align: center;
+}
+
+#linksmedia ul li {
+display: inline;
+color: white;
+padding-right: 60px;
+font-size: 20px;
+}
+
+#linksmedia ul li:hover {
+display: inline;
+color: black;
+font-size: 40px;
+}
