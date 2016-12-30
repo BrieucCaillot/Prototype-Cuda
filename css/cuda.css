@@ -15,10 +15,8 @@
 
                     /* FIRST PURPLE BACKGROUND */
 
-.body{
+body{
     font-family: Avenir, "Times New Roman", Arial;
-    width: 750px
-    margin: auto;
 }
 
 @media only screen and (max-width:800px) {
@@ -31,11 +29,10 @@
 /* HEADER */ 
 
 #firstbg{
-    background-color: #643A79;
-    font-family: Avenir, "Times New Roman", Arial;
+    background-color: #87509c;
     color: white;
-    height: 250px;
-    padding: 60px;
+    height: 327px;
+    padding: 18px 60px 60px 60px;
     margin: -10px;
 }
 
@@ -51,9 +48,9 @@
 }
 
 .buttons {
-width: 90%;
-position: right;
+  width: 100%;
 }
+
 .nonbreakingspace {
   clear: both;
 }
@@ -63,11 +60,24 @@ position: right;
 }
 
 .workwithus {
+  position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  background-color: #eb7d4b;
+  height: 3.4em;
+  width: 16em;
   clear: both;
 }
 
+.workwithus p {
+  font-weight: bolder;;;;
+}
+
 .hithere {
-  font-size: 30px
+  font-size: 33px;
+  font-weight: bold;
+  text-align: center;
 }
 
 
@@ -77,7 +87,6 @@ position: right;
 
 #secondbg {
   background-color: #17c2a4;
-  font-family: Avenir;
   color: white;
   height: 500px;
   padding: 60px;
@@ -85,7 +94,7 @@ position: right;
 }
 
 #secondbg h1{
-  text-align: center;
+    text-align: center;
 }
 
 #secondbg img{
@@ -115,6 +124,7 @@ position: right;
 
 .BRANDING{
   font-size: 20px;
+  font-weight: bold;
 }
 
         /* PEN ICON */
@@ -128,6 +138,7 @@ position: right;
 
 .DESIGN {
   font-size: 20px;
+  font-weight: bold;
 }
 
         /* ECROUS ICON */
@@ -141,6 +152,7 @@ position: right;
 
 .DEVELOPMENT{
   font-size: 20px;
+  font-weight: bold;
 }
 
         /* ROCKET SCIENCE ICON */
@@ -154,6 +166,7 @@ position: right;
 
 .ROCKETSCIENCE{
   font-size: 20px;
+  font-weight: bold;
 }
 
 .clear {
@@ -180,6 +193,9 @@ margin: -10px;
 #thirdbg img{
   border-image: center;
 }
+#thirdbg #text p {
+  color: black;
+}
 
 .weare2 {
   text-align: center;
@@ -199,18 +215,22 @@ margin: -10px;
 
 .ANNEHATHAWAY{
   font-size: 20px;
+  font-weight: bold;
 }
 
 .KATEUPTON{
   font-size: 20px;
+  font-weight: bold;
 }
 
 .OLIVIAWILDE{
   font-size: 20px;
+  font-weight: bold;
 }
 
 .ASHLEYGREENE{
   font-size: 20px;
+  font-weight: bold;
 }
 
 /* What people are in Cuda*/
