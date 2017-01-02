@@ -60,18 +60,26 @@ body{
 }
 
 .workwithus {
-  position: absolute;
-    top: 49%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */;
   background-color: #eb7d4b;
   height: 3.4em;
-  width: 16em;
   clear: both;
+  /* transform: translate(-50%, -50%); */;
+  position: absolute;
+  /* transform: translate(-50%, -50%); */;
+  top: 17em;
+  /* transform: translate(-50%, -50%); */;
+  left: 41%;
+  /* transform: translate(-50%, -50%); */;
+  width: 16em;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */;
 }
 
 .workwithus p {
-  font-weight: bolder;;;;
+  font-weight: 800;;;;;
 }
 
 .hithere {
@@ -253,29 +261,34 @@ margin: -10px;
   margin: -10px; 
 }
 
+#fourthbg #text {
+  color: black;
+  text-align: center;
+}
+
 /* ABILITES */
 
 .wdesign{
  float: left;
-  margin-top: 140px;
+  margin-top: 85px;
   width: 25%;
 }
 
 .html{
  float: left;
-  margin-top: 140px;
+  margin-top: 85px;
   width: 25%;
 }
 
 .gdesign{
  float: left;
-  margin-top: 140px;
+  margin-top: 85px;
   width: 25%;
 }
 
 .uiux{
  float: left;
-  margin-top: 140px;
+  margin-top: 80px;
   width: 25%;
 }
 
@@ -296,11 +309,9 @@ margin: -10px;
 }
 
 .buttons2{
-  text-align: center;
   margin-top: 30px;
-  margin-left: 373px;
+  margin-left: 35.9%;;
   display: inline-block;
-  float:left;
   clear: both;
 }
 
@@ -314,7 +325,7 @@ margin-top: 50px;
 }
 
 .portfolio2{
-float: left;
+float: right;
 display: inline-block;
 margin-top: 50px;
 margin-left: 20px;
@@ -328,7 +339,7 @@ margin-top: 50px;
 }
 
 .portfolio4{
-float: left;
+float: right;
 display: inline-block;
 margin-top: 50px;
 margin-left: 20px;
@@ -504,10 +515,10 @@ display: inline;
 color: white;
 padding-right: 60px;
 font-size: 20px;
+font-weight: 600;
 }
 
 #linksmedia ul li:hover {
 display: inline;
-color: black;
-font-size: 40px;
+color: #30bae7;/* font-size: 40px; */;
 }
