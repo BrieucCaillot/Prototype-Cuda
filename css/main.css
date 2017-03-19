@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html body {
+  font-family: Avenir, sans-serif; }
+
+header > #ct1 {
+  padding-top: 40px;
+  height: 550px;
+  background-color: #87509c; }
+  header > #ct1 > #ct1-1 {
+    height: 400px;
+    margin-top: 1%; }
+    header > #ct1 > #ct1-1 > div:first-child {
+      height: 38%; }
+      header > #ct1 > #ct1-1 > div:first-child img {
+        display: block;
+        margin: 0 auto; }
+      header > #ct1 > #ct1-1 > div:first-child nav {
+        padding-top: 0; }
+        header > #ct1 > #ct1-1 > div:first-child nav ul li {
+          display: inline-block;
+          padding: 20px;
+          color: #fff; }
+        header > #ct1 > #ct1-1 > div:first-child nav ul li:hover {
+          background-color: #000; }
+    header > #ct1 > #ct1-1 > div:nth-child(2) {
+      height: 38%;
+      color: #fff;
+      font-weight: bold; }
+      header > #ct1 > #ct1-1 > div:nth-child(2) h1 {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 50px; }
+    header > #ct1 > #ct1-1 > div:last-child {
+      height: 70px; }
+      header > #ct1 > #ct1-1 > div:last-child button {
+        width: 300px;
+        color: white;
+        font-weight: 500;
+        background-color: #eb7d4b;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 1px 1px 8px 0px #030303; }
+
+main > section:first-child > #ct2 {
+  padding-top: 125px;
+  background-color: #17c2a4;
+  height: 750px; }
+  main > section:first-child > #ct2 > #ct2-1 {
+    height: 500px;
+    color: #fff; }
+    main > section:first-child > #ct2 > #ct2-1 > div:first-child > div {
+      display: block;
+      margin: 0 auto;
+      height: 50px; }
+      main > section:first-child > #ct2 > #ct2-1 > div:first-child > div h2 {
+        height: 50px;
+        font-size: 38px;
+        font-weight: bold; }
+      main > section:first-child > #ct2 > #ct2-1 > div:first-child > div hr {
+        margin: 0 auto;
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: -webkit-linear-gradient(left, #333, #333, #333);
+        background-image: linear-gradient(to right, #333, #333, #333); }
+    main > section:first-child > #ct2 > #ct2-1 > div:nth-child(2) > div {
+      margin: 0 auto;
+      margin-top: 3%;
+      height: 100px; }
+      main > section:first-child > #ct2 > #ct2-1 > div:nth-child(2) > div p {
+        font-size: 20px;
+        font-weight: lighter; }
+    main > section:first-child > #ct2 > #ct2-1 > div:last-child {
+      height: 63%; }
+      main > section:first-child > #ct2 > #ct2-1 > div:last-child > div img {
+        display: block;
+        margin: 0 auto; }
+      main > section:first-child > #ct2 > #ct2-1 > div:last-child > div h3 {
+        margin-top: 25%;
+        font-size: 21px;
+        font-weight: bold; }
+      main > section:first-child > #ct2 > #ct2-1 > div:last-child > div p {
+        line-height: 25px;
+        padding-top: 20px;
+        font-size: 15px; }
+main > section:nth-child(2) > #ct3 {
+  padding-top: 125px;
+  background-color: #e7f1f8;
+  height: 750px; }
+  main > section:nth-child(2) > #ct3 > #ct3-1 {
+    height: 500px;
+    color: #fff; }
+    main > section:nth-child(2) > #ct3 > #ct3-1 > div:first-child > div {
+      display: block;
+      margin: 0 auto;
+      height: 50px; }
+      main > section:nth-child(2) > #ct3 > #ct3-1 > div:first-child > div h2 {
+        height: 50px;
+        font-size: 38px;
+        font-weight: bold;
+        color: #3c4761; }
+      main > section:nth-child(2) > #ct3 > #ct3-1 > div:first-child > div hr {
+        margin: 0 auto;
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: -webkit-linear-gradient(left, #333, #333, #333);
+        background-image: linear-gradient(to right, #333, #333, #333); }
+    main > section:nth-child(2) > #ct3 > #ct3-1 > div:nth-child(2) > div {
+      margin: 0 auto;
+      margin-top: 3%;
+      height: 100px; }
+      main > section:nth-child(2) > #ct3 > #ct3-1 > div:nth-child(2) > div p {
+        color: #3c4761;
+        font-size: 20px;
+        font-weight: lighter; }
+    main > section:nth-child(2) > #ct3 > #ct3-1 > div:last-child {
+      height: 63%; }
+      main > section:nth-child(2) > #ct3 > #ct3-1 > div:last-child > div img {
+        display: block;
+        margin: 0 auto; }
+      main > section:nth-child(2) > #ct3 > #ct3-1 > div:last-child > div h3 {
+        margin-top: 15%;
+        font-size: 21px;
+        font-weight: bold;
+        color: #3c4761; }
+      main > section:nth-child(2) > #ct3 > #ct3-1 > div:last-child > div p:first-child {
+        padding-top: 3px;
+        color: #48c1e9; }
+      main > section:nth-child(2) > #ct3 > #ct3-1 > div:last-child > div p:nth-child(2) {
+        line-height: 25px;
+        padding-top: 20px;
+        font-size: 15px;
+        color: #3c4761; }
+      main > section:nth-child(2) > #ct3 > #ct3-1 > div:last-child > div p:last-child img {
+        display: inline-block;
+        margin: 0 auto; }
+main > section:nth-child(3) > #ct4 {
+  padding-top: 125px;
+  background-color: #fffff;
+  height: 650px; }
+  main > section:nth-child(3) > #ct4 > #ct4-1 {
+    height: 400px;
+    color: #fff; }
+    main > section:nth-child(3) > #ct4 > #ct4-1 > div:first-child > div {
+      display: block;
+      margin: 0 auto;
+      height: 50px; }
+      main > section:nth-child(3) > #ct4 > #ct4-1 > div:first-child > div h2 {
+        height: 50px;
+        font-size: 38px;
+        font-weight: bold;
+        color: #3c4761; }
+      main > section:nth-child(3) > #ct4 > #ct4-1 > div:first-child > div hr {
+        margin: 0 auto;
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: -webkit-linear-gradient(left, #333, #333, #333);
+        background-image: linear-gradient(to right, #333, #333, #333); }
+    main > section:nth-child(3) > #ct4 > #ct4-1 > div:nth-child(2) > div {
+      margin: 0 auto;
+      margin-top: 3%;
+      height: 100px; }
+      main > section:nth-child(3) > #ct4 > #ct4-1 > div:nth-child(2) > div p {
+        color: #3c4761;
+        font-size: 20px;
+        font-weight: lighter; }
+    main > section:nth-child(3) > #ct4 > #ct4-1 > div:last-child {
+      height: 63%; }
+      main > section:nth-child(3) > #ct4 > #ct4-1 > div:last-child > div img {
+        display: block;
+        margin: 0 auto; }
+      main > section:nth-child(3) > #ct4 > #ct4-1 > div:last-child > div h4 {
+        margin-top: 15%;
+        font-size: 21px;
+        font-weight: bold;
+        color: #3c4761; }
+      main > section:nth-child(3) > #ct4 > #ct4-1 > div:last-child > div p {
+        padding-top: 3px;
+        color: #48c1e9; }
+main > section:nth-child(4) > #ct5 {
+  padding-top: 125px;
+  background-color: #ffdd99;
+  height: 1400px; }
+  main > section:nth-child(4) > #ct5 > #ct5-1 {
+    height: 1100px;
+    color: #393939; }
+    main > section:nth-child(4) > #ct5 > #ct5-1 > div:first-child > div {
+      display: block;
+      margin: 0 auto;
+      height: 50px; }
+      main > section:nth-child(4) > #ct5 > #ct5-1 > div:first-child > div h2 {
+        height: 50px;
+        font-size: 38px;
+        font-weight: bold; }
+      main > section:nth-child(4) > #ct5 > #ct5-1 > div:first-child > div hr {
+        margin: 0 auto;
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: -webkit-linear-gradient(left, #333, #333, #333);
+        background-image: linear-gradient(to right, #333, #333, #333); }
+    main > section:nth-child(4) > #ct5 > #ct5-1 > div:nth-child(2) > div {
+      margin: 0 auto;
+      margin-top: 3%;
+      height: 65px; }
+      main > section:nth-child(4) > #ct5 > #ct5-1 > div:nth-child(2) > div p {
+        font-size: 20px;
+        font-weight: lighter; }
+    main > section:nth-child(4) > #ct5 > #ct5-1 > div:nth-child(3) {
+      height: 70px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+      main > section:nth-child(4) > #ct5 > #ct5-1 > div:nth-child(3) nav {
+        padding-top: 0;
+        height: inherit; }
+        main > section:nth-child(4) > #ct5 > #ct5-1 > div:nth-child(3) nav ul {
+          margin: 0 auto; }
+          main > section:nth-child(4) > #ct5 > #ct5-1 > div:nth-child(3) nav ul li {
+            display: inline-block;
+            padding: 20px; }
+          main > section:nth-child(4) > #ct5 > #ct5-1 > div:nth-child(3) nav ul li:hover {
+            background-color: #000; }
+    main > section:nth-child(4) > #ct5 > #ct5-1 #ct5-2 div p {
+      padding: 30px 0 70px 0; }
+    main > section:nth-child(4) > #ct5 > #ct5-1 #ct5-3 div p {
+      padding: 30px 0 70px 0; }
+    main > section:nth-child(4) > #ct5 > #ct5-1 > div:last-child {
+      height: 70px; }
+      main > section:nth-child(4) > #ct5 > #ct5-1 > div:last-child button {
+        width: 300px;
+        color: white;
+        font-weight: 500;
+        background-color: #17c2a4;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 1px 1px 8px 0px #030303; }
+main > section:last-child > #ct6 {
+  padding-top: 125px;
+  background-color: #d74680;
+  height: 810px;
+  color: #fff; }
+  main > section:last-child > #ct6 > #ct6-1 {
+    height: 600px; }
+    main > section:last-child > #ct6 > #ct6-1 > div:first-child > div {
+      display: block;
+      margin: 0 auto;
+      height: 50px; }
+      main > section:last-child > #ct6 > #ct6-1 > div:first-child > div h2 {
+        height: 50px;
+        font-size: 38px;
+        font-weight: bold; }
+      main > section:last-child > #ct6 > #ct6-1 > div:first-child > div hr {
+        margin: 0 auto;
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: -webkit-linear-gradient(left, #333, #333, #333);
+        background-image: linear-gradient(to right, #333, #333, #333); }
+    main > section:last-child > #ct6 > #ct6-1 > div:nth-child(2) > div {
+      margin: 0 auto;
+      margin-top: 3%;
+      height: 65px; }
+      main > section:last-child > #ct6 > #ct6-1 > div:nth-child(2) > div p {
+        font-size: 20px;
+        font-weight: lighter; }
+    main > section:last-child > #ct6 > #ct6-1 #ct6-2 {
+      margin-bottom: 13%; }
+      main > section:last-child > #ct6 > #ct6-1 #ct6-2 div {
+        position: relative; }
+        main > section:last-child > #ct6 > #ct6-1 #ct6-2 div div {
+          position: absolute;
+          top: 0;
+          left: 35%; }
+          main > section:last-child > #ct6 > #ct6-1 #ct6-2 div div p:first-child {
+            font-size: 18px;
+            line-height: 30px; }
+          main > section:last-child > #ct6 > #ct6-1 #ct6-2 div div h5 {
+            margin-top: 5%;
+            font-size: 20px;
+            font-weight: bold; }
+          main > section:last-child > #ct6 > #ct6-1 #ct6-2 div div p:last-child {
+            font-size: 16px;
+            color: #ffdd99;
+            padding-top: 2%; }
+    main > section:last-child > #ct6 > #ct6-1 #ct6-3 div {
+      position: relative; }
+      main > section:last-child > #ct6 > #ct6-1 #ct6-3 div div {
+        position: absolute;
+        top: 0;
+        left: 35%; }
+        main > section:last-child > #ct6 > #ct6-1 #ct6-3 div div p:first-child {
+          font-size: 18px;
+          line-height: 30px; }
+        main > section:last-child > #ct6 > #ct6-1 #ct6-3 div div h5 {
+          margin-top: 5%;
+          font-size: 20px;
+          font-weight: bold; }
+        main > section:last-child > #ct6 > #ct6-1 #ct6-3 div div p:last-child {
+          font-size: 16px;
+          color: #ffdd99;
+          padding-top: 2%; }
+
+footer > #ct7 {
+  padding-top: 125px;
+  background-color: #3c5499;
+  height: 810px;
+  color: #fff; }
+  footer > #ct7 > #ct7-1 {
+    height: 600px; }
+    footer > #ct7 > #ct7-1 > div:first-child > div {
+      display: block;
+      margin: 0 auto;
+      height: 50px; }
+      footer > #ct7 > #ct7-1 > div:first-child > div h2 {
+        height: 50px;
+        font-size: 38px;
+        font-weight: bold; }
+      footer > #ct7 > #ct7-1 > div:first-child > div hr {
+        margin: 0 auto;
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: -webkit-linear-gradient(left, #333, #333, #333);
+        background-image: linear-gradient(to right, #333, #333, #333); }
+    footer > #ct7 > #ct7-1 > div:nth-child(2) > div {
+      margin: 0 auto;
+      margin-top: 3%;
+      height: 65px; }
+      footer > #ct7 > #ct7-1 > div:nth-child(2) > div p {
+        font-size: 20px;
+        font-weight: lighter; }
+    footer > #ct7 > #ct7-1 > div:nth-child(3) > div > input {
+      color: white;
+      background: #273A71;
+      padding: 22px 25px;
+      border: none;
+      border-radius: 5px; }
+    footer > #ct7 > #ct7-1 > div:nth-child(4) > div {
+      margin-top: 3%; }
+      footer > #ct7 > #ct7-1 > div:nth-child(4) > div > textarea {
+        color: white;
+        background: #273A71;
+        padding: 22px 25px;
+        border: none;
+        border-radius: 5px; }
+    footer > #ct7 > #ct7-1 > div:last-child {
+      margin-top: 5%;
+      height: 70px; }
+      footer > #ct7 > #ct7-1 > div:last-child > button {
+        width: 300px;
+        color: white;
+        font-weight: 500;
+        background-color: #48c1e9;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 1px 1px 8px 0px #030303; }
+footer > #ct8 {
+  background-color: #344b8e;
+  height: 130px;
+  color: #fff; }
+  footer > #ct8 #ct8-1 {
+    height: 90px;
+    padding-top: 4%;
+    width: 1400px; }
+    footer > #ct8 #ct8-1 nav {
+      padding: 0; }
+      footer > #ct8 #ct8-1 nav ul {
+        padding: 0; }
+      footer > #ct8 #ct8-1 nav li {
+        display: inline-block;
+        font-size: 22px;
+        padding-right: 12%; }
+        footer > #ct8 #ct8-1 nav li a {
+          text-decoration: none;
+          color: inherit; }
+      footer > #ct8 #ct8-1 nav li:hover {
+        color: #48c1e9; }
+
+/*# sourceMappingURL=main.css.map */
